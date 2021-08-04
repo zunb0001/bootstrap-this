@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Home</title>
+  </head>
+  <body>
+  
+      <div class="container-sm"> <!--*************responsive Container*****************************-->
+
+      <!--responsive Navbar With a brand name shown on the left and toggler on the right-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary bg-gradient ">  
+        <div class="container-fluid  ">  
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <a class="navbar-brand col order-first "><img src="./images/logo.png" width="70" height="70" alt="logo"></a>   <!--col: 1st col-->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item col">  
+                <a class="nav-link active text-light h5 " aria-current="page" href="index.html">Home</a>  <!--h5:textsize-->
+              </li>
+              <li class="nav-item col">
+                <a class="nav-link text-light h5" href="components.html">Components</a>  
+              </li>
+              <li class="nav-item col ">
+                <a class="nav-link text-light h5" href="utilites.html">Utilities</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--************************End of Navbar code**********************************-->
+      <p>&nbsp;</p>  <!--Adding blank line -->
+
+                              <!--Main Content -->
+
+   <!----**************rounded box contianer with shadow*************************************-->
+    <div class="shadow-sm p-3 mb-5 bg-body rounded bg-light">
+      <span> <p class="h2 text-danger  "><u><b>Components</b></u></p> </span>
+      <!--****************************1.CARD*****************************************-->
+      <span> <p class="h4 "><b>Cards</b></p> 
+      <p>Flexible and extensible content container. Cards support a wide variety of content, including images, text, list groups, links, and more.</p></span>
+        <div class="card" style="width: 18rem;">  <!--using image card example -->
+          <img src="./images/avatar.png" class="card-img-top" alt="laceholder" height="200" width="50">
+          <div class="card-body">
+            <p class="card-text">An example of using the card component with images.the code can be copied and insterted at any place inside the html file.</p>
+            <a href="./text /card.txt" class="btn btn-danger">copy</a>
+          </div>
+        </div>
+        <p>&nbsp;</p>  <!--Adding blank line -->
+             <!--****************************************2.ALERT***********************-->
+        <span> <p class="h4 "><b>Alerts</b></p> 
+        <p> a Component that provide contextual feedback messages for typical user actions 
+          with the handful of available and flexible alert messages.</p></span>
+        <!--Colored Alert with a link -->
+        <div class="alert alert-danger" role="alert">
+         An example of a colored alert with a link <a href="./text /alert.txt" class="alert-link">copy the code</a>
+        </div>
+        <p>&nbsp;</p>
+        <!--****************************************3.BUTTONS***********************-->
+        <span> <p class="h4 "><b>Buttons</b></p> 
+          <p> powerful bootstrap component that can be used with any content that requied an action and provids support for multiple sizes, states, and more. And it can be used with a variety of attributes, colors and sizes</p></span>
+          <div class="d-grid gap-2 d-md-block">
+            <button type="button" class="btn btn-outline-danger">Outlined Button</button> <a href="./text /button.txt">copy the code</a>
+            <p>the code of the desired style button can be insterted in any content that required a specific action. The button constructor should be provided by using JavaScript methods.</p>
+          </div>
+
+          </div>
+
+       
+        
+         
+        </div>
+  <!--******************JS and Bundles requuired for some Componnents**************************************************-->      
+    <!--JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</div>
+  </body>
+
+<!--***************************************FOOTER***************************************************************************-->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted"><small>&copy;https://getbootstrap.com/</small></span>
+    </div>
+  </footer>
+  
+</html>

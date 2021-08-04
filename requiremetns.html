@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Home</title>
+  </head>
+  <body>
+   
+     
+      <div class="container-sm"> <!--********************responsive Container**********************-->
+         <!--responsive Navbar With a brand name shown on the left and toggler on the right-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary bg-gradient ">  <!--bg-white:bg color class-->
+        <div class="container-fluid  ">  
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <a class="navbar-brand col order-first "><img src="./images/logo.png" width="70" height="70" alt="logo"></a>   <!--col: 1st col-->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item col">  
+                <a class="nav-link active text-light h5 " aria-current="page" href="index.html">Home</a>  <!--h5:textsize-->
+              </li>
+              <li class="nav-item col">
+                <a class="nav-link text-light h5" href="components.html">Components</a>  
+              </li>
+              <li class="nav-item col ">
+                <a class="nav-link text-light h5" href="utilites.html">Utilities</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <!--****************************End of Navbar code***************************** -->
+
+      <p>&nbsp;</p>  <!--Adding blank line -->
+      
+
+                                                            <!--main contents -->
+       <span> <p class="h2 text-danger  "><b> Requirements</b></p> </span>
+      <ul class="list-group"> <!--list group -->
+        <li class="list-group-item h5"><b>HTML doctype:</b></li><p class="h6">Bootstrap requires the use of the HTML5 doctype. Without it, you’ll see some funky incomplete styling, but including it shouldn’t cause any considerable hiccups.</p></li>
+        <li class="list-group-item h5"><b>Responsive meta tag:</b><p class="h6">To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your &lt head &gt.</p></li>
+        <li class="list-group-item h5"><b>JS for Components:</b>
+          <p class="h6">Many of Bootstrap components require the use of JavaScript to function. 
+            Specifically, they require  JavaScript plugins designed for bootstrap.
+          <p class="text-danger"> the Components requiring JavaScript plugins: </p>
+          <ul> <!--Nested list-->
+           <li> Alerts for dismissing</li>
+            <li>Buttons for toggling states and checkbox/radio functionality</li>
+           <li>Carousel for all slide behaviors, controls, and indicators</li>
+           <li> Collapse for toggling visibility of content</li>
+           <li>Dropdowns for displaying and positioning (also requires Popper)</li> 
+            <li>Modals for displaying, positioning, and scroll behavior</li>
+            <li>Navbar for extending our Collapse plugin to implement responsive behavior</li>
+           <li> Toasts for displaying and dismissing</li>
+            <li>Tooltips and popovers for displaying and positioning (also requires Popper)</li>
+           <li> Scrollspy for scroll behavior and navigation updates</li> 
+          </ul>
+        </li>
+        
+      </ul> 
+        </div>
+
+  <!--******************JS and Bundles requuired for some Components**************************************************-->      
+    <!--JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</div>
+  </body>
+
+<!--***************************************FOOTER***************************************************************************-->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted"><small>&copy;https://getbootstrap.com/</small></span>
+    </div>
+  </footer>
+  
+</html>
